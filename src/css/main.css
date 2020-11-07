@@ -28,12 +28,13 @@
 
 .home__title {
   font-size: var(--h1-font-size);
-  color: aqua;
+  color: #fff;
 }
 
 .home__profession {
   font-size: 1rem;
-  color: blueviolet;
+  color: #9e9e9e;
+
   margin-bottom: var(--mb-5);
 }
 
@@ -42,10 +43,10 @@
 }
 
 .home__social-link {
-  background-color: lightcoral;
+  background-color: #590202;
   display: inline-flex;
-  color: lightblue;
-  font-size: 1.1rem;
+  color: #EBEEF2;
+  font-size: 1.5rem;
   border-radius: 50%;
   padding: 0.4rem;
   margin: 0 var(--mb-1);
@@ -61,15 +62,16 @@
 } */
 
 .button {
+  color: #ebeef2;
   display: inline-block;
-  background-color: lightskyblue;
+  background-color: #590202;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   transition: 0.3s;
 }
 
 .button:hover {
-  background-color: chartreuse;
+  background-color: #a60321;
 }
 
 .button__light {
@@ -193,7 +195,7 @@
 }
 
 .education__year,
-.education__univarsity {
+.education__specialty {
   text-align: right;
 }
 
